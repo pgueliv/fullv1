@@ -1,0 +1,210 @@
+/* FONDOS */
+
+
+.bg-section{
+    background-color: rgb(69, 127, 252);
+}
+
+/******/
+
+.container{
+    max-width: 1450px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.py-10{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.py-20{
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.mb-10{
+    margin-bottom: 6rem;
+}
+
+.bg-danger-100{
+    background-color: #ff0100;
+}
+
+.bg-dark-100{
+    background-color: #131313;
+}
+
+.bg-red-100{
+    background-color: #ff0100 !important;
+}
+
+.bg-orange{
+    background-image: linear-gradient(90deg,#F28B03 15%,#FF7100 88%);   
+}
+
+.bg-red{
+    background-color: #ff0100;
+}
+
+.border-red{
+    border: 2px solid #ff0100;
+}
+
+.shadows{
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 0 #000;
+}
+
+.border-g{
+    border: 1px solid #dee2e6 !important;
+    border-color: #464646 !important;
+    background-color: #1a1a1a ;
+}
+
+.section-td .w-60{
+    width: 60%;
+}
+
+.section-td i{
+    font-size: 30px;
+}
+
+.section-token .shadows p{
+    font-size: 1.25rem;
+}
+
+.section-4 h5{
+    width: 508px;
+}
+
+.section-4 .bg-secondary-50{
+    background-color: #1b1b1b;
+}
+
+.section-4 .bg-primary-100{
+    background-color: #00fff8;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+
+.section-4 .num{
+    background-color: #343434;
+}
+
+.section-roadmap .cir{
+    font-size: 10px;
+}
+
+.section-roadmap .pt-6{
+    padding-top: 30px;
+}
+
+.section-roadmap .h-full{
+    height: 273px;
+}
+
+.section-5 .image{
+    position: relative;
+    display: inline-block;
+}
+
+.section-5 .image .tutor{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.section-5 .image h3{
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+}
+
+.section-5 .image p{
+    text-shadow: -3px -3px 3px #000000, 3px -3px 3px #000000, -3px 3px 3px #000000, 3px 3px 3px #000000;
+}
+
+.section-faqs .text-d-none{
+    text-decoration: none;
+}
+
+.section-faqs .border-dark-50{
+    border-bottom: 1px solid #4a4a4a !important;
+}
+
+.section-faqs h3 button{
+    font-size: 24px;
+}
+
+.section-faqs .card-body{
+    font-size: 18px;
+}
+
+.section-tl a{
+    font-size: 1.25rem;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
+
+}
+@media only screen and (max-width: 1199px){
+    
+    .container{
+        max-width: 1000px;
+    }
+
+    .section-2 .display-4{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    
+    .container{
+        max-width: 800px;
+    }
+
+    .py-10{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .mb-10{
+        margin-bottom: 3rem;
+    }
+
+    .section-td .w-50{
+        width: 100% !important;
+    }
+
+    .section-4 h5 {
+        width: 100%;
+    }
+
+
+    .section-roadmap .h-100{
+        height: 296px !important;
+    }
+
+    .section-faqs .w-75{
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 561px){
+
+    .container{
+        max-width: 580px;
+    }
+
+    .section-4 h5{
+        font-size: 1rem;
+    }
+
+    .section-6 h1{
+        font-size: 2.5rem;
+    }
+
+}
